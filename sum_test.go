@@ -38,3 +38,10 @@ func TestPow(t *testing.T) {
 		t.Error("The result must be 8")
 	}
 }
+
+func TestCalculo(t *testing.T) {
+	result := calculo(5, 2)
+	if result != 8 {
+		t.Error("the result must be 8")
+	}
+}
