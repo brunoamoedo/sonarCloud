@@ -31,3 +31,6 @@ func pow(a int, b int) int {
 	result := math.Pow(base, exponent)
 	return int(result)
 }
+func calculo(a int, b int) int {
+	return (a * b) - b
+}
